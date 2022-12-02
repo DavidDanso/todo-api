@@ -1,0 +1,315 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background: var(--main-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.line {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+.line div {
+  visibility: hidden;
+}
+
+/* Fonts */
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "eina01-bold";
+  src: url("../fonts/eina01-bold.woff2");
+}
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "NeueHaasUnicaW1G-Light";
+  src: url("../fonts/NeueHaasUnicaW1G-Light.woff2");
+}
+.page-content {
+  --main-color: #eeeff4;
+  --text-color: #262626;
+  --accent-color: #7b8fdd;
+  --header-font: "eina01-bold";
+  --text-font: "NeueHaasUnicaW1G-Light";
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+a:hover {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+/*change color of text highlight*/
+::-moz-selection {
+  color: var(--main-color);
+  background: var(--text-color);
+}
+
+::selection {
+  color: var(--main-color);
+  background: var(--text-color);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--text-color);
+  border-radius: 6px;
+}
+
+/************************ Hero-Section *****************************/
+#hero {
+  margin-top: 12%;
+}
+.hero-intro {
+  margin: 3%;
+}
+.hero-intro h1 {
+  font-size: 4vh;
+  font-family: var(--header-font);
+  color: var(--text-color);
+  letter-spacing: 1px;
+  line-height: 1.1;
+}
+.hero-intro h1 span,
+.hero-intro h6 span {
+  color: var(--accent-color);
+}
+.hero-intro #form_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+#form_wrapper input {
+  color: var(--text-color);
+  letter-spacing: 1px;
+  font-family: var(--text-font);
+  font-size: 2vh;
+  border: 1px solid var(--text-color);
+  margin-bottom: 2%;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+}
+#form_wrapper input:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+  border: 1px solid var(--text-color);
+  background-color: transparent !important;
+  transition: all 0.3s ease-in-out;
+}
+#form_wrapper input:hover,
+#form_wrapper input:focus {
+  background: #dadfe5;
+  border: 1px solid #dadfe5;
+  transition: all 0.3s ease-in-out;
+}
+#form_wrapper #submit {
+  background: var(--accent-color);
+  font-family: var(--text-font);
+  border: none;
+  font-size: 2vh;
+  letter-spacing: 1px;
+  color: var(--main-color);
+  transition: all 0.3s ease-in-out;
+}
+#form_wrapper #submit:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+  border: none;
+  background-color: var(--accent-color) !important;
+  transition: all 0.3s ease-in-out;
+}
+#form_wrapper #submit:hover,
+#form_wrapper #submit:focus {
+  background: #929abd;
+  transition: all 0.3s ease-in-out;
+}
+#todos .row {
+  margin-top: 10%;
+}
+#todos .card {
+  border: 1px solid var(--text-color);
+}
+#todos .col-md-4,
+#todos .col-4 {
+  margin-bottom: 2%;
+}
+.hero-intro h2 {
+  font-size: 2.6vh;
+  font-family: var(--header-font);
+  color: var(--text-color);
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.hero-intro h2 span {
+  float: right;
+}
+#todos #icon {
+  width: 5.4%;
+}
+#todos #icon_ {
+  width: 15%;
+  margin-top: -1%;
+}
+.hero-intro p {
+  font-size: 1.9vh;
+  font-family: var(--text-font);
+  color: #6b728e;
+  letter-spacing: 1px;
+}
+#actions {
+  margin-top: 10%;
+}
+#actions a {
+  color: var(--accent-color);
+  font-size: 2.1vh;
+  font-family: var(--text-font);
+  letter-spacing: 1px;
+}
+
+#empty_feed {
+  margin-top: 15%;
+}
+.hero-intro h6 {
+  font-size: 2.2vh;
+  font-family: var(--text-font);
+  color: var(--text-color);
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/********************** Extra small devices (portrait phones, less than 576px) ****************************/
+@media (max-width: 575.98px) {
+}
+/************************ Small devices (landscape phones, 576px and up) *****************************/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    display: none;
+  }
+}
+/***************************** Medium devices (tablets, 768px and up) ********************************/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    display: none;
+  }
+}
+/********************************** Large devices (desktops, 992px and up) *********************************/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* body {
+    display: none;
+  } */
+}
+/************************ Extra large devices (large desktops, 1200px and up) ********************************/
+@media (min-width: 1200px) {
+  /****** hero-Section ******/
+  #hero {
+    margin-top: 4%;
+  }
+  .hero-intro {
+    margin: 3%;
+  }
+  .hero-intro h1 {
+    font-size: 5vh;
+    letter-spacing: 1px;
+  }
+  .hero-intro #form_wrapper {
+    margin-top: 3%;
+  }
+  #form_wrapper input {
+    font-size: 2vh;
+    margin-bottom: 2%;
+    width: 400px;
+    letter-spacing: 1px;
+  }
+  #form_wrapper #submit {
+    font-size: 2vh;
+    letter-spacing: 1px;
+    width: auto;
+  }
+  #todos .row {
+    margin-top: 5%;
+  }
+  #todos .col-md-4,
+  #todos .col-4 {
+    margin-bottom: 1%;
+  }
+  #todos .card {
+    position: relative;
+    height: 100%;
+    margin-bottom: 3%;
+  }
+  .hero-intro h2 {
+    font-size: 2.6vh;
+    letter-spacing: 1px;
+  }
+  .hero-intro h2 span img {
+    width: 80%;
+    cursor: pointer;
+  }
+  #todos #icon {
+    width: 4%;
+  }
+  #todos #icon__ {
+    width: 20%;
+    margin-top: -1%;
+  }
+  .hero-intro p {
+    font-size: 1.9vh;
+    font-family: var(--text-font);
+    color: #6b728e;
+    letter-spacing: 1px;
+    margin-bottom: 15%;
+  }
+  #actions {
+    position: absolute;
+    bottom: 4px;
+  }
+  #actions a {
+    font-size: 2vh;
+    letter-spacing: 1px;
+  }
+
+  #empty_feed {
+    margin-top: 1%;
+  }
+  #sad_boy_img {
+    width: 35%;
+  }
+  .hero-intro h6 {
+    font-size: 2.2vh;
+    letter-spacing: 1px;
+  }
+}
+
+/************************ Extra large devices (extra large desktops, 1900px and up) ********************************/
+@media (min-width: 2000px) {
+  body {
+    display: none;
+  }
+}

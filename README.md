@@ -4,8 +4,6 @@
 
 #### This is a Todo App built with Django, Ajax & the Django REST FRAMEWORK. Feel free to make changes based on your requirements.
 
-#### I created this project while learning Django and followed tutorial series from Dennis Ivy on `YOUTUBE`
-
 `And if you like this project, ADD a STAR ⭐️ to this project 👆`
 
 # How to Install and Run this project?

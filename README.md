@@ -61,8 +61,25 @@ Then Add Email, Username and Password
 
 ## App Preview:
 
+<table width="100%"> 
+<tr>
+<td width="50%">      
+&nbsp; 
+<br>
+<p align="center">
+  Empty Feed
+</p>
 <img src="https://github.com/DavidDanso/todo-api/blob/main/static/images/UI/EMPTY.png" />
+</td> 
+<td width="50%">
+<br>
+<p align="center">
+  Display Todo's
+</p>
 <img src="https://github.com/DavidDanso/todo-api/blob/main/static/images/UI/TODO.png" />
+</td>
+</table>
+
 
 
 ### Happy Coding!

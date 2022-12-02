@@ -46,7 +46,7 @@ python3 manage.py runserver [ Command for Mac ]
 python manage.py runserver [ Command for Windows ]
 ```
 
-`⚠ Then, the development server will be started at http://127.0.0.1:8000/`
+`⚠️ Then, the development server will be started at http://127.0.0.1:8000/`
 
 ## Login Credentials
 
@@ -60,9 +60,12 @@ python manage.py createsuperuser [ Command for Windows ]
 
 ## App Preview:
 
-<img src="https://github.com/DavidDanso/todo-api/blob/main/static/images/UI/EMPTY.png" width=600 />
+<div style="display: inline-block">
+  <img src="https://github.com/DavidDanso/todo-api/blob/main/static/images/UI/EMPTY.png" width=600 />
 
-<img src="https://github.com/DavidDanso/todo-api/blob/main/static/images/UI/TODO.png" width=600 />
+  <img src="https://github.com/DavidDanso/todo-api/blob/main/static/images/UI/TODO.png" width=600 />
+</div>
+
 
 
 ### Happy Coding!

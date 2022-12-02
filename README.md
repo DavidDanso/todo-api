@@ -2,7 +2,7 @@
 
 ## Project Description
 
-#### This is a Simple Todo App built with Django, Ajax & the Django REST FRAMEWORK. Feel free to make changes based on your requirements.
+#### This is a Todo App built with Django, Ajax & the Django REST FRAMEWORK. Feel free to make changes based on your requirements.
 
 #### I created this project while learning Django and followed tutorial series from Dennis Ivy on `YOUTUBE`
 

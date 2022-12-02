@@ -60,12 +60,8 @@ python manage.py createsuperuser [ Command for Windows ]
 
 ## App Preview:
 
-<div style="display: inline-block">
-  <img src="https://github.com/DavidDanso/todo-api/blob/main/static/images/UI/EMPTY.png" width=600 />
-
-  <img src="https://github.com/DavidDanso/todo-api/blob/main/static/images/UI/TODO.png" width=600 />
-</div>
-
+<img src="https://github.com/DavidDanso/todo-api/blob/main/static/images/UI/EMPTY.png" width=600 />
+<img src="https://github.com/DavidDanso/todo-api/blob/main/static/images/UI/TODO.png" width=600 />
 
 
 ### Happy Coding!

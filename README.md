@@ -56,7 +56,8 @@ python3 manage.py createsuperuser[ Command for Mac ]
 
 python manage.py createsuperuser [ Command for Windows ]
 ```
-#### Then Add Email, Username and Password
+Then Add Email, Username and Password
+
 
 ## App Preview:
 

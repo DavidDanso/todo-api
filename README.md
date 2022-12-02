@@ -61,8 +61,8 @@ Then Add Email, Username and Password
 
 ## App Preview:
 
-<img src="https://github.com/DavidDanso/todo-api/blob/main/static/images/UI/EMPTY.png" width=600 />
-<img src="https://github.com/DavidDanso/todo-api/blob/main/static/images/UI/TODO.png" width=600 />
+<img src="https://github.com/DavidDanso/todo-api/blob/main/static/images/UI/EMPTY.png" />
+<img src="https://github.com/DavidDanso/todo-api/blob/main/static/images/UI/TODO.png" />
 
 
 ### Happy Coding!
